@@ -4,41 +4,40 @@ int main()
 {
     int a, b;
     char c;
-    cin >>a>>c>>b;
+    cin >> a >> c >> b;
 
-    if(c=='>')
+    if (c == '>')
     {
-        if(a>b)
+        if (a > b)
         {
-            cout<<"Right";
+            cout << "Right";
         }
         else
         {
-            cout<<"Worng";
+            cout << "Worng";
         }
     }
-    else if(c=='<')
+    else if (c == '<')
     {
-        if(a<b)
+        if (a < b)
         {
-            cout<<"Right";
+            cout << "Right";
         }
         else
         {
-            cout<<"Worng";
+            cout << "Worng";
         }
     }
-    else if(c='=')
+    else if (c = '=')
     {
-        if(a=b)
+        if (a = b)
         {
-            cout<<"Right";
+            cout << "Right";
         }
         else
-        cout<<"Worng";
+            cout << "Worng";
     }
 
- 
     return 0;
 }
 
